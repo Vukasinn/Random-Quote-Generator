@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://scontent.fbeg1-1.fna.fbcdn.net/v/t35.0-12/20677034_1604719316225551_859006761_o.jpg?oh=b6cb61b7a09a490b523d97501673de54&oe=598A9DE6");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#mainContainer {
+  width: 80%;
+  height: 650px;
+}
+
+#quotesContainer {
+  background-color: white;
+  border-radius: 18%;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  background: aqua;
+  background: -webkit-linear-gradient(aqua, #00CED1, #6495ED);
+  background: -o-linear-gradient(aqua, #00CED1, #6495ED);
+  background: -moz-linear-gradient(aqua, #00CED1, #6495ED);
+
+}
+
+.quotes {
+  font-family: Sedgwick Ave;
+  position: relative;
+  top: 23%;
+  letter-spacing: 1px;
+}
+
+.exampleQuote {
+  font-weight: bold;
+  font-family: Lobster;
+  !important: italic;
+}
+
+.author {
+  float: right;
+  font-family: Pacifico;
+}
+
+#navodnici {
+  position: relative;
+  top: 60px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#newQuote {
+  position: relative;
+  left: 50%;
+}
+
+#inButton {
+  font-family: Dancing Script;
+  font-size: 22px;
+}
+
+.btn {
+  background: lightgreen;
+  background: linear-gradient(to right, #ADFF2F, #7FFFD4);
+  background: -moz-linear-gradient(right, #ADFF2F, #7FFFD4);
+  background: -webkit-linear-gradient(left, #ADFF2F, #7FFFD4);
+  background: -o-linear-gradient(right, #ADFF2F, #7FFFD4);
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #7CFC00, #90EE90);
+  background: -webkit-linear-gradient(left, #7CFC00, #90EE90);
+  background: -moz-linear-gradient(right, #7CFC00, #90EE90);
+  background: -o-linear-gradient(right, #7CFC00, #90EE90);
+}
+
+#tweetButton {
+  font-size: 22px;
+  font-family: Dancing Script;
+  position: relative;
+  left: 50%;
+  top: 15%;
+}
+
+.fa-twitter {
+  color: #00aced;
+  font-size: 22px;
+}
+
+.fa-plus {
+  font-size: 22px;
+  color: red;
+}
+
